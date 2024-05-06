@@ -30,9 +30,9 @@ const Beranda = ({navigation}) => {
         <MenuItems data={Data} />
       </View>
       <TouchableOpacity
-        onPress={() => navigation.navigate('Favorit')}
+        onPress={() => navigation.navigate('Menu')}
         style={styles.btn}>
-        <Text style={styles.txt}>Ke Favorit</Text>
+        <Text style={styles.txt}>Ke Menu</Text>
       </TouchableOpacity>
     </View>
   );
